@@ -1,0 +1,10 @@
+<div class="card" > 
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{personaje.name}}</h5>
+      <img src="{{personaje.img}}" width="100%" alt="">
+      <p class="card-text">{{personaje.nickname}}</p>
+      <p class="badge" [ngClass]="personaje.status=='Alive' ? 'text-bg-primary':'text-bg-danger'">{{personaje.status}}</p>
+
+    </div>
+  </div>
